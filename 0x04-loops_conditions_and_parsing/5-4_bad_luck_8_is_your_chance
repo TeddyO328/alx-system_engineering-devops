@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 # loops from 1 to 10 and displays
 #+ "bad luck" for the 4th loop iteration
 #+ "good luck" for the 8th loop iteration
@@ -14,4 +15,20 @@ while [ "$COUNTER" -le 10 ]; do
 	echo "Holberton School"
     fi
     let COUNTER=COUNTER+1
+=======
+# script displaying " good luck" "Best School" "bad luck" 
+CONTER=0
+while [ $CONTER -lt 10 ];
+do
+    if [ $CONTER -eq 3 ]
+    then
+echo "bad luck"
+    elif [ $CONTER -eq 7 ]
+    then
+echo "good luck"
+    else
+echo "Best School"
+    fi
+    let CONTER=CONTER+1
+>>>>>>> 888d178f23f3537c8f5dd92e79645fcea6552f2c
 done

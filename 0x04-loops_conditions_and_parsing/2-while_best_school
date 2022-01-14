@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 # This script is displaying "Best School" 10 times
 
 i=0
@@ -7,4 +8,12 @@ while ((i < 10))
 do
 	echo "Best School"
 	let i++
+=======
+# Bash script that displays Best School 10 times
+cont=1
+while [ $cont -le 10 ];
+do
+    echo "Best School"
+    let cont=cont+1
+>>>>>>> 888d178f23f3537c8f5dd92e79645fcea6552f2c
 done

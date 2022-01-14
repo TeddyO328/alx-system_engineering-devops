@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 sudo chmod 754 hello
+=======
+chmod ug+x,o+r hello
+>>>>>>> 888d178f23f3537c8f5dd92e79645fcea6552f2c

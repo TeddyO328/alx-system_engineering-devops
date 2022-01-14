@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 sudo head -10 /etc/passwd
+=======
+head /etc/passwd
+>>>>>>> 888d178f23f3537c8f5dd92e79645fcea6552f2c

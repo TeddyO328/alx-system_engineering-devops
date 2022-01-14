@@ -1,7 +1,18 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 # This script is displaying files in current dir without task numbers
 
 for f in *
 do
 	echo "${f/*-/}"
 done
+=======
+#  Script bash displays the content for current directory
+content=0
+list=$(ls)
+for content in $list
+do
+    echo "$content" | cut -d "-" -f2
+done
+
+>>>>>>> 888d178f23f3537c8f5dd92e79645fcea6552f2c

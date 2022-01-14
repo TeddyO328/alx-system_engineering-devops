@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 # prints own pid
 
+=======
+#Script Bash that displays its own PID
+>>>>>>> 888d178f23f3537c8f5dd92e79645fcea6552f2c
 echo $$

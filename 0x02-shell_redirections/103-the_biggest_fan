@@ -1,2 +1,10 @@
 #!/bin/bash
+<<<<<<< HEAD
 tail -n+2 | cut -f1 | sort | uniq -c | sort -nr | rev | cut --delimiter=' ' -f1 | rev | head --lines=11
+=======
+tail -n +2 | cut -f1 | sort | uniq -c | sort -nr -k 1,1 | cut -c 9- | head -11
+
+
+
+
+>>>>>>> 888d178f23f3537c8f5dd92e79645fcea6552f2c
